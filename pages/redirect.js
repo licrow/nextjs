@@ -77,7 +77,7 @@ export default function Home() {
 	 
 	 <p>Vercel Support</p>
 
-<hr>
+<hr />
 		 <p>Things I would do with a specific understanding of the customers case:<br />
 More tailored code snippets based on the specific URI’s/paths that the customer is using.<br />
 Make suggestions on any specific features they could use dependent on circumstance.<br />
