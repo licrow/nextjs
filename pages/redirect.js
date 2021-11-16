@@ -22,17 +22,17 @@ export default function Home() {
 	 
 	 <p>You can redirect within the application by amending the configuration file for your project. This differs dependent on the type of project you are using. If your project is using Next.js, you can add the following code to your next.config.js file to carry out a redirect from one path to another:</p>
 
-	 <code className={styles.code}>module.exports = &#123;
-  async redirects() &#123;
-    return [
-      &#123;
-        source: &apos;/about&apos;,
-        destination: &apos;/&apos;,
-        permanent: true,
-      &#125;,
-    ]
-  &#125;,
-&#125;
+	 <code className={styles.code}>module.exports = &#123;<br />
+  async redirects() &#123;<br />
+    return [<br />
+      &#123;<br />
+        source: &apos;/about&apos;,<br />
+        destination: &apos;/&apos;,<br />
+        permanent: true,<br />
+      &#125;,<br />
+    ]<br />
+  &#125;,<br />
+&#125;<br />
 </code>
 
          <p>When using Next.js, if you wish to use wildcards in your redirection to include anything within the /about URI path, you can do this by including :path* within the source for the path in question, like so:</p>
