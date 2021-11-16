@@ -16,15 +16,14 @@ export default function Home() {
         </h1>
 		<div>
 			<ul>
-				<li>
-					<h3>Favourite things</h3></li>
+		  <h3>Favourite things</h3>
 				<li>a. Digging through logs to troubleshoot (troubleshooting in general is a good thing especially when given time and space to focus on things, as it allows for you to better understand the customers situation and use case, as well as provide a teachable situation for colleagues in training and personal experience)</li>
 				<li>b. Write and maintain support articles and docs pages (Documentation is good support practice)</li>
 				<li>c. Manage a support team (As much in the sense of handling teams during the shift and allocating resources where necessary as having people reporting to you)</li>
 				<li>d. Help train and onboard new support teammates (Collaborative training and experience sharing within a team builds a more cohesive support infrastructure)</li>
 				<li>e. Work with engineering teams during incidents and provide updates to internal and external stakeholders (Really important to ensure that support can provide a link between the engineering teams responsible for handling incidents and the customers who are affected.)</li>
-				<li>
-					<h3>Least favourite things</h3></li>
+
+<h3>Least favourite things</h3>
 				<li>f. Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites (Social media is good for analysing the pulse around a product or being a canary for identifying incidents but too often support by Twitter ends up overriding SLA’s for customers via the established support platforms (Salesforce, Zendesk etc.)</li>
 				<li>g. Help resolve billing issues for customers (The less billing involved in an engineers day the better, it doesn’t give much in the way of helping you learn more about a product and it just causes anxiety when you’re handling peoples money)</li>
 				<li>h. Respond to 50+ support requests via email every day (Not because there’s an issue with that amount of workload. The most important thing is that the responses are of a high quality and balancing the efficiency of touches between high touch and low touch customers)</li>
