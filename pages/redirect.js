@@ -36,7 +36,7 @@ export default function Home() {
 	 
 	 <p>I will set this ticket to pending for now but please let us know if you require any further assistance and we will be happy to help.</p>
 		 
-	 <p>Kind regards,<br>Liam Crowter<br>Vercel Support</p>
+	 <p>Kind regards,<br>Liam Crowter<br>Vercel Support</br></p>
       </div>
    </main>
    <footer className={styles.footer}>
