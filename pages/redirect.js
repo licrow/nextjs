@@ -37,11 +37,31 @@ export default function Home() {
 
          <p>When using Next.js, if you wish to use wildcards in your redirection to include anything within the /about URI path, you can do this by including :path* within the source for the path in question, like so:</p>
 
-	 <code className={styles.code}></code>
+	 <p className={styles.code}>module.exports = &#123;<br />
+  async redirects() &#123;<br />
+    return [<br />
+      &#123;<br />
+        source: &apos;/about/:path*&apos;,<br />
+        destination: &apos;/&apos;,<br />
+        permanent: true,<br />
+      &#125;,<br />
+    ]<br />
+  &#125;,<br />
+&#125;<br />
+</p>
 
          <p>If you are not using Next.js, you can redirect within the vercel.json file using the following code:</p>
 
-	 <code className={styles.code}></code>
+	 <p className={styles.code}>&#123;<br />
+  &quot;redirects&quot;: [<br />
+      &#123;<br />
+      &quot;source&quot;: &quot;/view-source&quot;,<br />
+      &quot;destination&quot;: &quot;https://github.com/vercel/vercel&quot;, <br />
+      &quot;permanent&quot;: true<br />
+    &#125;<br />
+  ]<br />
+&#125;<br />
+</p>
 
          <p>You can also amend the type of redirect (whether permanent or temporary, or use a specific status code in response). You may find the following documents useful in providing more information for the use case you have here:</p>
 
