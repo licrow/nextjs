@@ -15,22 +15,20 @@ export default function Home() {
           Favourite and least favourite things
         </h1>
 		<div>
-			<ul>
-				<li>
-					<h3>Favourite things</h3></li>
-				<li>a. Digging through logs to troubleshoot (troubleshooting in general is a good thing especially when given time and space to focus on things, as it allows for you to better understand the customers situation and use case, as well as provide a teachable situation for colleagues in training and personal experience)</li>
-				<li>b. Write and maintain support articles and docs pages (Documentation is good support practice)</li>
-				<li>c. Manage a support team (As much in the sense of handling teams during the shift and allocating resources where necessary as having people reporting to you)</li>
-				<li>d. Help train and onboard new support teammates (Collaborative training and experience sharing within a team builds a more cohesive support infrastructure)</li>
-				<li>e. Work with engineering teams during incidents and provide updates to internal and external stakeholders (Really important to ensure that support can provide a link between the engineering teams responsible for handling incidents and the customers who are affected.)</li>
-				<li>
-					<h3>Least favourite things</h3></li>
-				<li>f. Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites (Social media is good for analysing the pulse around a product or being a canary for identifying incidents but too often support by Twitter ends up overriding SLA’s for customers via the established support platforms (Salesforce, Zendesk etc.)</li>
-				<li>g. Help resolve billing issues for customers (The less billing involved in an engineers day the better, it doesn’t give much in the way of helping you learn more about a product and it just causes anxiety when you’re handling peoples money)</li>
-				<li>h. Respond to 50+ support requests via email every day (Not because there’s an issue with that amount of workload. The most important thing is that the responses are of a high quality and balancing the efficiency of touches between high touch and low touch customers)</li>
-				<li>i. Work with 3rd party partners to track down a tricky situation for a joint customer (Handling third parties can be tricky dependent on their willingness to help with the situation, so this can sometimes be a pain point which is counteracted by good documentation and logging)</li>
-				<li>j. Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems (I think that one to one private discussions are preferable in handling customers problems but community can be useful so long as it does not become support by Social Media and override the SLA’s in place per item a.</li>
-			</ul>
+			<p>Hi there,<br />
+Thanks for contacting Vercel Support.<br />
+You can add a custom domain to your Vercel project. Different methods are available dependent on your use case. This is fully documented here:</p> <a href=https://vercel.com/docs/concepts/projects/custom-domains>Custom Domains</a><br />
+<p>The main two methods are as follows:<br />
+1.	A/CNAME Proxying: You can create DNS records pointing to Vercel at your existing authoritative nameservers. We will provide you with the correct records which will be automatically validated after DNS propagation. The type of record will depend on the domain being added:<br />
+a.	Root domains will require an A record, as nameservers do not typically support CNAME’s on the root domain.<br />
+b.	Subdomains can be added using a CNAME record, which allows for the IP address to be pulled from the Vercel hostname dynamically.<br />
+2.	Change of Nameservers: You can amend your authoritative nameservers to those provided by Vercel. Once propagated, these will activate and management of DNS records can be handled through Vercel directly.<br />
+Once added, you can assign the domain in question to either your default branch or to a different branch to allow for separation between production/development environments and so on.<br />
+I will set this ticket to pending for now but please let us know if you require any further assistance and we will be happy to help.<br />
+Kind regards,<br />
+Liam Crowter<br />
+Vercel Support<br /></p>
+
 		</div>
 	</main>
 	<footer className={styles.footer}> <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">
