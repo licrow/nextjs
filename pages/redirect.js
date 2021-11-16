@@ -65,9 +65,9 @@ export default function Home() {
 
          <p>You can also amend the type of redirect (whether permanent or temporary, or use a specific status code in response). You may find the following documents useful in providing more information for the use case you have here:</p>
 
-	 <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects">Does Vercel support permanent redirects?</a><br />
+	 <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects" className={styles.title}>Does Vercel support permanent redirects?</a><br />
 	 
-	 <a href="https://nextjs.org/docs/api-reference/next.config.js/redirects">Nextjs redirects</a>
+	 <a href="https://nextjs.org/docs/api-reference/next.config.js/redirects" className={styles.title}>Nextjs redirects</a>
 	 
 	 <p>I will set this ticket to pending for now but please let us know if you require any further assistance and we will be happy to help.</p>
 		 
