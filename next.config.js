@@ -4,7 +4,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/*',
+        source: '/:slug*',
         destination: '/',
         permanent: false,
       },
