@@ -4,7 +4,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/hello-vercel',
+        source: '/*',
         destination: '/',
         permanent: false,
       },
