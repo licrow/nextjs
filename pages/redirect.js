@@ -26,8 +26,8 @@ export default function Home() {
   async redirects() &#123;
     return [
       &#123;
-        source: '/about',
-        destination: '/',
+        source: &apos;/about&apos;,
+        destination: &apos;/&apos;,
         permanent: true,
       &#125;,
     ]
