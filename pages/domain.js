@@ -12,7 +12,7 @@ export default function Home() {
 		<link rel="icon" href="/favicon.ico" /> </Head>
 	<main className={styles.main}>
 		<h1 className={styles.title}>
-          Favourite and least favourite things
+          Setting up a custom domain
         </h1>
 		<div>
 			<p>Hi there,</p>
