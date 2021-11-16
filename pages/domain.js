@@ -17,7 +17,10 @@ export default function Home() {
 		<div>
 			<p>Hi there,</p>
 <p>Thanks for contacting Vercel Support.</p>
-<p>You can add a custom domain to your Vercel project. Different methods are available dependent on your use case. This is fully documented here:</p> <a href=https://vercel.com/docs/concepts/projects/custom-domains>Custom Domains</a><br />
+<p>You can add a custom domain to your Vercel project. Different methods are available dependent on your use case. This is fully documented here:</p>
+
+<a href=https://vercel.com/docs/concepts/projects/custom-domains>Custom Domains</a>
+
 <p>The main two methods are as follows:<br />
 1.	A/CNAME Proxying: You can create DNS records pointing to Vercel at your existing authoritative nameservers. We will provide you with the correct records which will be automatically validated after DNS propagation. The type of record will depend on the domain being added:<br />
 a.	Root domains will require an A record, as nameservers do not typically support CNAME’s on the root domain.<br />
