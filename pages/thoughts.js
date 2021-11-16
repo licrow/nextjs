@@ -17,7 +17,7 @@ export default function Home() {
 		<div>
 			<p>4g.<br />Issues with build deployment which are not immediately obvious to resolve. There is an inherent friction between the customer being willing to admit that there may be a problem with the build that they are attempting to deploy and a willingness to admit that there’s a bug or issue with the product that needs to be fixed by engineering.<br />In the shprt term, adding more hints and tips for identification of what could be a problem within the build. This is especially important where it is not immediately obvious from the deployment status logs.<br />In the long term this can be handled by good documentation within support/publicly to allow for customers to resolve the issues within the context of their specific issue.</p>
 
-<p>4h.<br />The familiarisation task is fine. Maybe mentioning that there’s space and flexibility to experiment as often times with technical tests people will be laser focused on the correct answer and it may not be immediately obvious to everybody."
+<p>4h.<br />The familiarisation task is fine. Maybe mentioning that there’s space and flexibility to experiment as often times with technical tests people will be laser focused on the correct answer and it may not be immediately obvious to everybody.
 
 		  	</p>
 		</div>
