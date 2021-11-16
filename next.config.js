@@ -7,6 +7,7 @@ module.exports = {
         source: '/:path*',
         destination: '/',
         permanent: false,
+        basePath: false,
       },
     ]
   },
