@@ -12,25 +12,14 @@ export default function Home() {
 		<link rel="icon" href="/favicon.ico" /> </Head>
 	<main className={styles.main}>
 		<h1 className={styles.title}>
-          Favourite and least favourite things
+          Common customer issue and familiarisation task thoughts
         </h1>
 		<div>
-			<ul>
-				<li>
-					<h3>Favourite things</h3></li>
-				<li>a. Digging through logs to troubleshoot (troubleshooting in general is a good thing especially when given time and space to focus on things, as it allows for you to better understand the customers situation and use case, as well as provide a teachable situation for colleagues in training and personal experience)</li>
-				<li>b. Write and maintain support articles and docs pages (Documentation is good support practice)</li>
-				<li>c. Manage a support team (As much in the sense of handling teams during the shift and allocating resources where necessary as having people reporting to you)</li>
-				<li>d. Help train and onboard new support teammates (Collaborative training and experience sharing within a team builds a more cohesive support infrastructure)</li>
-				<li>e. Work with engineering teams during incidents and provide updates to internal and external stakeholders (Really important to ensure that support can provide a link between the engineering teams responsible for handling incidents and the customers who are affected.)</li>
-				<li>
-					<h3>Least favourite things</h3></li>
-				<li>f. Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites (Social media is good for analysing the pulse around a product or being a canary for identifying incidents but too often support by Twitter ends up overriding SLA’s for customers via the established support platforms (Salesforce, Zendesk etc.)</li>
-				<li>g. Help resolve billing issues for customers (The less billing involved in an engineers day the better, it doesn’t give much in the way of helping you learn more about a product and it just causes anxiety when you’re handling peoples money)</li>
-				<li>h. Respond to 50+ support requests via email every day (Not because there’s an issue with that amount of workload. The most important thing is that the responses are of a high quality and balancing the efficiency of touches between high touch and low touch customers)</li>
-				<li>i. Work with 3rd party partners to track down a tricky situation for a joint customer (Handling third parties can be tricky dependent on their willingness to help with the situation, so this can sometimes be a pain point which is counteracted by good documentation and logging)</li>
-				<li>j. Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems (I think that one to one private discussions are preferable in handling customers problems but community can be useful so long as it does not become support by Social Media and override the SLA’s in place per item a.</li>
-			</ul>
+			<p>4g.<br />Issues with build deployment which are not immediately obvious to resolve. There is an inherent friction between the customer being willing to admit that there may be a problem with the build that they are attempting to deploy and a willingness to admit that there’s a bug or issue with the product that needs to be fixed by engineering.<br />In the shprt term, adding more hints and tips for identification of what could be a problem within the build. This is especially important where it is not immediately obvious from the deployment status logs.<br />In the long term this can be handled by good documentation within support/publicly to allow for customers to resolve the issues within the context of their specific issue.</p>
+
+<p>4h.<br />The familiarisation task is fine. Maybe mentioning that there’s space and flexibility to experiment as often times with technical tests people will be laser focused on the correct answer and it may not be immediately obvious to everybody."
+
+		  	</p>
 		</div>
 	</main>
 	<footer className={styles.footer}> <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">
