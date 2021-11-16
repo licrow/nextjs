@@ -8,7 +8,7 @@ module.exports = {
       {
         source: '/hello-vercel',
         destination: '/',
-        permanent: true,
+        permanent: false,
       },
     ]
   },
