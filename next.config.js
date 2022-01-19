@@ -4,7 +4,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: 'evangelionunit.one/:path*',
+        source: '/:path*',
         destination: 'www.evangelionunit.one',
         permanent: true,
       },
