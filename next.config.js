@@ -14,8 +14,13 @@ module.exports = {
   async headers() {
     return [
       {
-        key:'strict-transport-security',
-        value:'max-age=63072000; includeSubDomains; preload',
+        source: '/about',
+        headers: [
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=63072000; includeSubDomains; preload;',
+          },
+        ],
       },
     ]
   },
