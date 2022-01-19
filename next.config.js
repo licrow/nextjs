@@ -4,9 +4,9 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/hello-vercel',
-        destination: '/',
-        permanent: false,
+        source: 'evangelionunit.one/:path*',
+        destination: 'www.evangelionunit.one',
+        permanent: true,
       },
     ]
   },
