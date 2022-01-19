@@ -1,15 +1,5 @@
 module.exports = {
   reactStrictMode: true,
-
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        destination: 'www.evangelionunit.one',
-        permanent: true,
-      },
-    ]
-  },
   
   async headers() {
     return [
