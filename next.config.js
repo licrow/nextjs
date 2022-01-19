@@ -14,8 +14,8 @@ module.exports = {
   async headers() {
     return [
       {
-        key:'strict-transport-security'
-        value:'max-age=63072000; includeSubDomains; preload'
+        key:'strict-transport-security',
+        value:'max-age=63072000; includeSubDomains; preload',
       },
     ]
   },
