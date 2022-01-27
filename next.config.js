@@ -4,11 +4,11 @@ module.exports = {
   async headers() {
     return [
       {
-        source: '/:path*',
+        source: '/(.*)',
         headers: [
           {
-            key: 'Strict-Transport-Security',
-            value: 'max-age=63072000; includeSubDomains; preload;',
+            key:'access-control-allow-origin',
+            value::'www.evangelionunit.ome'
           },
         ],
       },
