@@ -8,7 +8,7 @@ module.exports = {
         headers: [
           {
             key:'access-control-allow-origin',
-            value::'www.evangelionunit.ome'
+            value::'www.evangelionunit.one'
           },
         ],
       },
