@@ -7,8 +7,8 @@ module.exports = {
         source: '/(.*)',
         headers: [
           {
-            key:'access-control-allow-origin',
-            value:'www.evangelionunit.one'
+            key:'Cache-Control',
+            value:'s-maxage=3600, stale-while-revalidate=30'
           },
         ],
       },
