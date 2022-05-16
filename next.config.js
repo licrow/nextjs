@@ -6,7 +6,7 @@ module.exports = {
           {
             source: '/:path*',
             destination: 'https://example.example.com',
-            has: [{ type: 'host', value: 'example.evangelionunit.one' }],
+            has: [{ type: 'host', value: 'www.evangelionunit.one' }],
       },
     ]
   },
