@@ -18,3 +18,4 @@ async rewrites() {
     ]
   },
 }
+}
