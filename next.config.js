@@ -5,7 +5,7 @@ module.exports = {
     return [
           {
             source: '/examplepath',
-            destination: 'https://example.example.com',
+            destination: 'https://example.com',
             has: [{ type: 'host', value: 'www.evangelionunit.one' }],
       },
     ]
