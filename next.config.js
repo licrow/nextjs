@@ -12,6 +12,4 @@ module.exports = {
         ],
         destination: 'https://example.example.com/another-page',
       },
-    ]
-  },
 }
