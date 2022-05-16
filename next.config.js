@@ -4,7 +4,7 @@ module.exports = {
   async rewrites() {
     return [
           {
-            source: '/:path*',
+            source: '/examplepath',
             destination: 'https://example.example.com',
             has: [{ type: 'host', value: 'www.evangelionunit.one' }],
       },
