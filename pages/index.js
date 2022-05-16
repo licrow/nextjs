@@ -17,54 +17,10 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://github.com/licrow" className={styles.card}>
+          <a href="https://example.evangelionunit.one" className={styles.card}>
             <h2>Github Account &rarr;</h2>
           </a>
 
-          <a href="https://github.com/licrow/nextjs" className={styles.card}>
-            <h2>Github Repo &rarr;</h2>
-          </a>
-
-          <a
-            href="https://www.evangelionunit.one/things"
-            className={styles.card}
-          >
-            <h2>Favourite/Least Favourite Things &rarr;</h2>
-          </a>
-
-          <a
-            href="https://www.evangelionunit.one/interests"
-            className={styles.card}
-          >
-            <h2>Interests &rarr;</h2>
-            <p>
-            </p>
-          </a>
-
-          <a
-            href="https://www.evangelionunit.one/redirect"
-            className={styles.card}
-          >
-            <h2>How to redirect a path? &rarr;</h2>
-            <p></p>
-          </a>
-
-          <a
-            href="https://www.evangelionunit.one/domain"
-            className={styles.card}
-          >
-            <h2>How to add a custom domain? &rarr;</h2>
-            <p>
-            </p>
-          </a>
-            
-          <a
-            href="https://www.evangelionunit.one/thoughts"
-            className={styles.card}
-          >
-            <h2>What are common problems? And thoughts on the test &rarr;</h2>
-            <p></p>
-          </a>
         </div>
       </main>
 
