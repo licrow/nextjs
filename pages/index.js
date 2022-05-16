@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://example.evangelionunit.one/examplepath" className={styles.card}>
+          <a href="https://www.evangelionunit.one/examplepath" className={styles.card}>
             <h2>Github Account &rarr;</h2>
           </a>
 
