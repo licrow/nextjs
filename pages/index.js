@@ -21,6 +21,10 @@ export default function Home() {
             <h2>Rewrite to example.com</h2>
           </a>
 
+          <a href="https://randomsubdomain.evangelionunit.one/examplepath" className={styles.card}>
+            <h2>Another rewrite to example.com</h2>
+          </a>
+
         </div>
       </main>
 
