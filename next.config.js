@@ -1,29 +1,17 @@
 module.exports = {
   reactStrictMode: true,
   
-  async rewrites() {
-    return [
-          {
-            source: '/examplepath',
-            destination: 'https://example.com',
-            has: [{ type: 'host', value: 'www.evangelionunit.one' }],
-      },
-    ]
-  },
-  
   async headers() {
     return [
       {
-        source: "/*",
+        source: "*",
         headers: [
           {
             key: "Cache-Control",
-            value: "max-age=1",
+            value: "max-age=0",
           },
         ],
       },
     ];
   },  
 };
-
-module.exports = nextConfig;
